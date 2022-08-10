@@ -6,11 +6,11 @@ const rootElement = document.querySelector("#pickerContainer");
 // Create the picker
 const picker = createPicker({
   rootElement,
-  emojisPerRow: 14,
+  emojisPerRow: 8,
   showRecents: false,
   showPreview: false,
   showSearch: false,
-  emojiSize: "1.8rem",
+  emojiSize: "2rem",
   className: 'my-picker'
 });
 
